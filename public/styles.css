@@ -318,4 +318,11 @@ footer {
 	.arrow {
 		font-size: 2rem;
 	}
+
+	/*** CONTACT VIEW ***/
+
+	#contact-container {
+		width: 90%;
+		height: 500px;
+	}
 }
