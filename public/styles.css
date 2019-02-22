@@ -327,7 +327,10 @@ footer {
 	/*** CONTACT VIEW ***/
 
 	#contact-container {
-		width: 90%;
 		height: 500px;
+	}
+
+	#contact-info, #map {
+		width: 90%;
 	}
 }
