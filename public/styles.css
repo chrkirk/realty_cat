@@ -313,6 +313,11 @@ footer {
 	#controls {
 		width: 150px;
 		height: 60px;
+		bottom: -30px;
+	}
+
+	#title {
+		margin-top: 30px;
 	}
 
 	.arrow {
