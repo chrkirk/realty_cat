@@ -8,7 +8,7 @@ a { /* Remove default styling from anchor tags */
 	text-decoration: none;
 }
 
-a:visited {
+a:link, a:visited {
 	color: black;
 }
 
