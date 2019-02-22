@@ -199,6 +199,7 @@ footer {
 }
 
 #menu-btn {
+	padding-bottom: 12px;
 	font-size: 3rem;
 	transition: all 300ms;
 }
