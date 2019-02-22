@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/designers-and-developers-icon-set/32/home-512.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>REALTY CAT</title>
+</head>
+
+<body>
+  <!-- Default navigation -->
+  <nav>
+    <div class="nav-item">
+      <a id="brand" href="/">REALTY CAT</a>
+      <div class="no-underline"></div>
+    </div>
+    <div class="nav-item">
+      <a href="/">Designers</a>
+      <div class= <%= (activeTab === 0) ? "underline" : "no-underline" %>></div>
+    </div>
+    <div class="nav-item">
+      <a href="/contact">Contact us</a>
+      <div class= <%= (activeTab === 1) ? "underline" : "no-underline" %>></div>
+    </div>
+    <div class="nav-item">
+      <a href="">Github</a>
+      <div class="no-underline"></div>
+    </div>
+  </nav>
+
+  <!-- Navigation for small screens -->
+  <div id="small-nav">
+    <div id="small-brand">
+      <div>REALTY CAT</div>
+      <div id="menu-btn">+</div>
+    </div>
+    <div class="small-nav-item hide-small-nav-item">Catalogue</div>
+    <div class="small-nav-item hide-small-nav-item">Contact us</div>
+    <div class="small-nav-item hide-small-nav-item">Github</div>
+  </div>
