@@ -1,4 +1,4 @@
-(() => {
+$(document).ready(function() {
 	const catalogue = [
 		{
 			'num': '023',
@@ -47,7 +47,7 @@
 		$('#menu-btn').toggleClass('rotate225');
 		$('.small-nav-item').toggleClass('hide-small-nav-item')
 	});
-})();
+});
 
 function setMainDisplay(house) {
 	$('#catalogue-num').text(house['num']);
