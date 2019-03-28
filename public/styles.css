@@ -156,6 +156,8 @@ main > img {
 	border-radius: 40px;
 	object-fit: cover;
 	object-position: center;
+	border: 1px solid lightgray;
+	padding: 1px;
 }
 
 #author-name {
@@ -204,8 +206,8 @@ footer {
 	transition: all 300ms;
 }
 
-.rotate45 {	/* animates the 'menu-btn' */
-	transform: rotate(45deg);
+.rotate225 {	/* animates the 'menu-btn' */
+	transform: rotate(225deg);
 }
 
 .color-white { /* animates the 'small-nav when 'menu-btn' is pressed */

@@ -212,6 +212,8 @@ main > img {
 	   object-fit: cover;
 	-o-object-position: center;
 	   object-position: center;
+	border: 1px solid lightgray;
+	padding: 1px;
 }
 
 #author-name {
@@ -282,10 +284,10 @@ footer {
 	transition: all 300ms;
 }
 
-.rotate45 {	/* animates the 'menu-btn' */
-	-webkit-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	        transform: rotate(45deg);
+.rotate225 {	/* animates the 'menu-btn' */
+	-webkit-transform: rotate(225deg);
+	    -ms-transform: rotate(225deg);
+	        transform: rotate(225deg);
 }
 
 .color-white { /* animates the 'small-nav when 'menu-btn' is pressed */
